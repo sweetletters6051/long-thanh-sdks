@@ -9,7 +9,7 @@ https://longthanh-imbiss.com/openapi.json. npm SDK and CLI version: 0.1.1; other
 
 | Ecosystem | Package/module | Homepage metadata |
 | --- | --- | --- |
-| npm | `@swlservices/long-thanh-sdk` | package.json homepage |
+| npm | `@swl_services/long-thanh-sdk` | package.json homepage |
 | Python | `long-thanh-sdk` | project.urls.Homepage and setup.py URL |
 | Go | `github.com/Moinsachsen1234/long-thanh-sdks/go` | Repository homepage and package README |
 | RubyGems | `long_thanh_sdk` | gem homepage and metadata.homepage_uri |
