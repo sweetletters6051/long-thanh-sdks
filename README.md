@@ -16,7 +16,7 @@ https://longthanh-imbiss.com/openapi.json. npm SDK and CLI version: 0.1.1; other
 
 All four SDKs are published. npm 0.1.1 includes the official CLI; Python, Ruby and Go remain at 0.1.0 (Go v0.1.0).
 
-- npm: https://www.npmjs.com/package/@swlservices/long-thanh-sdk
+- npm: https://www.npmjs.com/package/@swl_services/long-thanh-sdk
 - PyPI: https://pypi.org/project/long-thanh-sdk/
 - Go: https://github.com/Moinsachsen1234/long-thanh-sdks/tree/main/go
 - RubyGems: https://rubygems.org/gems/long_thanh_sdk
