@@ -18,7 +18,7 @@ Name | Type
 ## Example
 
 ```typescript
-import type { Problem } from '@swlservices/long-thanh-sdk'
+import type { Problem } from '@swl_services/long-thanh-sdk'
 
 // TODO: Update the object below with actual values
 const example = {

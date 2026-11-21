@@ -6,7 +6,7 @@ Generated from https://longthanh-imbiss.com/openapi.json. This SDK is read-only;
 
 Copyright (c) 2026 SWL Services. All rights reserved. See LICENSE.txt.
 
-# @swlservices/long-thanh-sdk@0.1.1
+# @swl_services/long-thanh-sdk@0.1.1
 
 A TypeScript SDK client for the longthanh-imbiss.com API.
 
@@ -15,7 +15,7 @@ A TypeScript SDK client for the longthanh-imbiss.com API.
 First, install the SDK from npm.
 
 ```bash
-npm install @swlservices/long-thanh-sdk --save
+npm install @swl_services/long-thanh-sdk --save
 ```
 
 Next, try it out.
@@ -25,11 +25,11 @@ Next, try it out.
 import {
   Configuration,
   DefaultApi,
-} from '@swlservices/long-thanh-sdk';
-import type { GetMenuRequest } from '@swlservices/long-thanh-sdk';
+} from '@swl_services/long-thanh-sdk';
+import type { GetMenuRequest } from '@swl_services/long-thanh-sdk';
 
 async function example() {
-  console.log("🚀 Testing @swlservices/long-thanh-sdk SDK...");
+  console.log("🚀 Testing @swl_services/long-thanh-sdk SDK...");
   const api = new DefaultApi();
 
   try {
@@ -128,8 +128,8 @@ npm publish
 Requires Node.js 18 or newer. Run without a global install:
 
 ```sh
-npx --yes --package=@swlservices/long-thanh-sdk long-thanh menu --language en
-npx --yes --package=@swlservices/long-thanh-sdk long-thanh business
+npx --yes --package=@swl_services/long-thanh-sdk long-thanh menu --language en
+npx --yes --package=@swl_services/long-thanh-sdk long-thanh business
 ```
 
-Or install with `npm install -g @swlservices/long-thanh-sdk` and run `long-thanh --help`. Output is JSON. Errors are JSON on stderr; exit codes are 0 for success, 1 for API/network errors and 2 for invalid arguments. No API key is required. Honor retry_after on 429; requests are not retried automatically. Documentation: https://longthanh-imbiss.com/developers/cli/
+Or install with `npm install -g @swl_services/long-thanh-sdk` and run `long-thanh --help`. Output is JSON. Errors are JSON on stderr; exit codes are 0 for success, 1 for API/network errors and 2 for invalid arguments. No API key is required. Honor retry_after on 429; requests are not retried automatically. Documentation: https://longthanh-imbiss.com/developers/cli/

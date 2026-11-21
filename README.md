@@ -9,21 +9,21 @@ https://longthanh-imbiss.com/openapi.json. npm SDK and CLI version: 0.1.1; other
 
 | Ecosystem | Package/module | Homepage metadata |
 | --- | --- | --- |
-| npm | `@swlservices/long-thanh-sdk` | package.json homepage |
+| npm | `@swl_services/long-thanh-sdk` | package.json homepage |
 | Python | `long-thanh-sdk` | project.urls.Homepage and setup.py URL |
 | Go | `github.com/Moinsachsen1234/long-thanh-sdks/go` | Repository homepage and package README |
 | RubyGems | `long_thanh_sdk` | gem homepage and metadata.homepage_uri |
 
 All four SDKs are published. npm 0.1.1 includes the official CLI; Python, Ruby and Go remain at 0.1.0 (Go v0.1.0).
 
-- npm: https://www.npmjs.com/package/@swlservices/long-thanh-sdk
+- npm: https://www.npmjs.com/package/@swl_services/long-thanh-sdk
 - PyPI: https://pypi.org/project/long-thanh-sdk/
 - Go: https://github.com/Moinsachsen1234/long-thanh-sdks/tree/main/go
 - RubyGems: https://rubygems.org/gems/long_thanh_sdk
 
 Current installation instructions: https://longthanh-imbiss.com/developers/sdks/
 PyPI and RubyGems releases use short-lived GitHub OIDC credentials.
-The npm scope belongs to the SWL Services organization swlservices. The authenticated publisher account moinsachsen1234 is its owner.
+The npm scope belongs to the SWL Services organization `swl_services`. The npm publisher account `sweetletters` is its owner.
 
 ## API scope
 
@@ -71,4 +71,4 @@ registry credentials, or signing keys.
 
 ## Official CLI
 
-Run `npx --yes --package=@swlservices/long-thanh-sdk long-thanh menu --language en` or `npx --yes --package=@swlservices/long-thanh-sdk long-thanh business`. The maintained CLI source in cli/ is copied into npm/bin/ by the generator. Run `node --test tests/cli.test.cjs` after building npm/. Documentation: https://longthanh-imbiss.com/developers/cli/
+Run `npx --yes --package=@swl_services/long-thanh-sdk long-thanh menu --language en` or `npx --yes --package=@swl_services/long-thanh-sdk long-thanh business`. The maintained CLI source in cli/ is copied into npm/bin/ by the generator. Run `node --test tests/cli.test.cjs` after building npm/. Documentation: https://longthanh-imbiss.com/developers/cli/

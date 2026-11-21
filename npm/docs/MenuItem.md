@@ -16,7 +16,7 @@ Name | Type
 ## Example
 
 ```typescript
-import type { MenuItem } from '@swlservices/long-thanh-sdk'
+import type { MenuItem } from '@swl_services/long-thanh-sdk'
 
 // TODO: Update the object below with actual values
 const example = {
