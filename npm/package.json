@@ -1,11 +1,11 @@
 {
-  "name": "@swlservices/long-thanh-sdk",
+  "name": "@swl_services/long-thanh-sdk",
   "version": "0.1.1",
   "description": "Official Long Thanh Imbiss SDK and CLI by SWL Services: published menus, prices, hours and contact information.",
   "author": "SWL Services",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Moinsachsen1234/long-thanh-sdks.git",
+    "url": "https://github.com/sweetletters6051/long-thanh-sdks.git",
     "directory": "npm"
   },
   "license": "UNLICENSED",

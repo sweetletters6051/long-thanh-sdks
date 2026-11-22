@@ -7,10 +7,18 @@ SDK source is in this public repository; the website repository remains private.
 
 ## npm
 
-The verified organization is **swlservices** (no hyphen). Authenticated account
-moinsachsen1234 is its owner. Package: `@swlservices/long-thanh-sdk`, version 0.1.0.
-Its homepage is https://longthanh-imbiss.com and author is SWL Services.
-CLI publication uses the organization's scope and browser authentication.
+The verified organization is **swl_services** (with an underscore). The npm
+account `sweetletters` is its owner. Package: `@swl_services/long-thanh-sdk`,
+version 0.1.1. Its homepage is https://longthanh-imbiss.com and author is SWL Services.
+CLI publication uses the organization scope and browser authentication.
+
+Build and publish from `npm/`:
+
+```sh
+npm ci
+npm run build
+npm publish --access public --registry=https://registry.npmjs.org/
+```
 
 ## Go
 

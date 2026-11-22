@@ -23,7 +23,7 @@ All four SDKs are published. npm 0.1.1 includes the official CLI; Python, Ruby a
 
 Current installation instructions: https://longthanh-imbiss.com/developers/sdks/
 PyPI and RubyGems releases use short-lived GitHub OIDC credentials.
-The npm scope belongs to the SWL Services organization swlservices. The authenticated publisher account moinsachsen1234 is its owner.
+The npm scope belongs to the SWL Services organization `swl_services`. The npm publisher account `sweetletters` is its owner.
 
 ## API scope
 
@@ -71,4 +71,4 @@ registry credentials, or signing keys.
 
 ## Official CLI
 
-Run `npx --yes --package=@swlservices/long-thanh-sdk long-thanh menu --language en` or `npx --yes --package=@swlservices/long-thanh-sdk long-thanh business`. The maintained CLI source in cli/ is copied into npm/bin/ by the generator. Run `node --test tests/cli.test.cjs` after building npm/. Documentation: https://longthanh-imbiss.com/developers/cli/
+Run `npx --yes --package=@swl_services/long-thanh-sdk long-thanh menu --language en` or `npx --yes --package=@swl_services/long-thanh-sdk long-thanh business`. The maintained CLI source in cli/ is copied into npm/bin/ by the generator. Run `node --test tests/cli.test.cjs` after building npm/. Documentation: https://longthanh-imbiss.com/developers/cli/
